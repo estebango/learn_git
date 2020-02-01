@@ -16,3 +16,8 @@ git config --global user.name user_name
 git add file_name
 git commit -m message_to_the_commit
 
+git merge branch_name # the current branch must be master to merge the branch,
+ if conflicts then open up the file in the master branch and delete the HEAD part, then commit 
+
+git pull git_hub_address 
+git push git_hub_address
