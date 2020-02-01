@@ -2,7 +2,11 @@ Commands for git:
 
 git log
 git status
+
+git fetch   # to update local from remote
+
 git checkout -b Branch_name
+
 git checkout file_name # to revert changes on that file to go back to the last version
 git reset --hard  # to revert changes to many files since last commit
 git --delete --force branch_name  # to erase a branch since last commit
