@@ -1,0 +1,23 @@
+Commands for git:
+
+git log
+git status
+
+git fetch   # to update local from remote
+
+git checkout -b Branch_name
+
+git checkout file_name # to revert changes on that file to go back to the last version
+git reset --hard  # to revert changes to many files since last commit
+git branch --delete --force branch_name  # to erase a branch since last commit
+
+git config --global user.mail mail@example.com
+git config --global user.name user_name
+git add file_name
+git commit -m message_to_the_commit
+
+git merge branch_name # the current branch must be master to merge the branch,
+ if conflicts then open up the file in the master branch and delete the HEAD part, then commit 
+
+git pull git_hub_address 
+git push git_hub_address
