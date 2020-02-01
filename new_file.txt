@@ -1,0 +1,5 @@
+Commands for git:
+
+git log
+git status
+git checkout -b Branch_name
