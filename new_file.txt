@@ -9,7 +9,7 @@ git checkout -b Branch_name
 
 git checkout file_name # to revert changes on that file to go back to the last version
 git reset --hard  # to revert changes to many files since last commit
-git --delete --force branch_name  # to erase a branch since last commit
+git branch --delete --force branch_name  # to erase a branch since last commit
 
 git config --global user.mail mail@example.com
 git config --global user.name user_name
